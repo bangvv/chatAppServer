@@ -1,0 +1,11 @@
+[requires]
+boost/1.75.0
+nlohmann_json/3.11.2
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+boost/*:header_only=True
+nlohmann_json/*:header_only=True
